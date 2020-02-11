@@ -107,6 +107,7 @@ export default {
             class={`${prefixClass}-datepicker-main ${prefixClass}-datepicker-popup`}
             style={{ top: this.top, left: this.left, position: 'absolute' }}
           >
+            <div class="custom-popop-inner"></div>
             {this.$slots.default}
           </div>
         )}
